@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 95%;
+}
+.header {
+    background-color: rgb(46, 172, 235);
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start;
+    padding: 20px;
+    margin-top: 0%;
+    width: 96vw;
+    border: none !important;
+    position: relative;
+}
+
+.imagem-header{
+  margin-top: 0%;
+  width: 150px;
+  height: 100px;
+  justify-content: flex-start;
+  align-items: center;
+  border: none;
+}
+
+.ul{
+    list-style: none
+}
+
+.li{
+    display: inline-block; 
+    margin-left: 20px;
+    font-size: larger;
+}
+
+
+a {
+    color: #fff; 
+    text-decoration: none;
+}
+
+.a:hover{
+    background-color: rgb(46, 172, 235);
+    color: rgb(162, 233, 124);
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+}
+
+
+.container2{
+    display: flex;
+}
+
+.h4{
+    color: rgb(51, 57, 104);
+    font-size: 128%;
+}
+
+.img{
+   float: left; 
+   margin-right: 20px;
+   margin-top: 10px;
+   margin-left: 20px;
+   height: 304px;
+   max-width: max-content;
+  }
+
+  .img2{
+    float: left; 
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    height: 304px;
+    width: 562px;
+   }
+ 
+
+.inframe{
+   display: flex;
+   width:100%; 
+   height:150px;
+   
+}
+
+.textokiki{
+    display:flex;
+    justify-content: left;
+    text-align: justify;
+    line-height: 1.3;}
+
+.quadradinhos{
+    display: flex;
+    align-items: flex;
+
+}
+
+.textochihiro{
+    display:flex;
+    text-align: justify; 
+    line-height: 1.3;
+
+}
+
+.quadradinhos2{
+    display: flex;
+    align-items: flex;
+}
+
+.button {
+    background-color: rgb(120, 173, 92);
+    border: none; 
+    color: white; 
+    padding: 20px 30px; 
+    text-align: end; 
+    text-decoration: none; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 8px; 
+    margin-right: 200px;
+    margin-bottom: 50px;
+    float: right;
+    border-top: none;
+
+  }
+
+.footer{
+    background-color:rgb(46, 172, 235);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
